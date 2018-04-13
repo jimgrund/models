@@ -1,6 +1,5 @@
 'use strict';
 
-const BannerFactory = require('./lib/bannerFactory');
 const BuildFactory = require('./lib/buildFactory');
 const CollectionFactory = require('./lib/collectionFactory');
 const CommandFactory = require('./lib/commandFactory');
@@ -16,7 +15,6 @@ const TriggerFactory = require('./lib/triggerFactory');
 const UserFactory = require('./lib/userFactory');
 
 module.exports = {
-    BannerFactory,
     BuildFactory,
     CollectionFactory,
     CommandFactory,
